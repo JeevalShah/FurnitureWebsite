@@ -1,0 +1,85 @@
+.main p{
+    color: #cb9e61;
+}
+#mainn{
+    margin-top: 20px; 
+    margin-left: 280px;
+}
+label,p{
+    font-size: 15px;
+}
+img{
+    width: 300px; 
+    position: relative; 
+    top: 140px; 
+    left:-10px;
+}
+form{
+    width: 300px;
+    margin: auto;
+    position: relative;
+    right: 170px;
+    top: 70px;
+}
+.coll2{
+    position: relative; 
+    left: 180px;
+}
+#sub1{
+    background-color: #cb9e61;
+    color: white;
+    width: 482px;
+    border-radius: 40px;
+}
+.log {
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+0%   {left:-200px; top:0px;}
+100%  {left:0px; top:0px;}
+}
+
+
+.log1 {
+    position: relative;
+    animation-name: example1;
+    animation-duration: 1s;
+}
+
+@keyframes example1 {
+0%   {left:-20px; top:0px;}
+100%  {left:190px; top:0px;}
+}
+
+.log3 {
+    position: relative;
+    animation-name: example3;
+    animation-duration: 1s;
+    color: #cb9e61; 
+    position:relative;
+    left: 32%;
+}
+
+@keyframes example3 {
+0%   {left:-96px; top:0px;}
+100%  {left:96px; top:0px;}
+}
+
+.img {
+    position: relative;
+    animation-name: example2;
+    animation-duration: 1s;
+    margin-left: 70px;
+}
+
+@keyframes example2 {
+0%   {left:200px; top:140px;}
+100%  {left:-10px; top:140px;}
+}
+.col-10{
+    max-width: 30% !important;
+    padding-bottom: 0 !important;
+}

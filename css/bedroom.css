@@ -1,0 +1,137 @@
+body{
+    background-color: #fefdfc;
+}
+
+/* logo */
+.logo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo h1{
+    color: #cb9e61;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+.logo p{
+    color: #929496;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+/* navbar */
+.navbarr{
+    background-color: #fefdfc;
+}
+.navbarr i{
+    font-size: 35px;
+    color: #cb9e61;
+}
+.navbarr li a{
+    font-size: 15px;
+}
+.navbarr li {
+    color: #979797;
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+/* options */
+#op1{
+    animation-name: ex1;
+    animation-duration: 2s;
+}
+@keyframes ex1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#op2{
+    animation-name: ex2;
+    animation-duration: 3s;
+}
+@keyframes ex2{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#op3{
+    animation-name: ex3;
+    animation-duration: 4s;
+}
+@keyframes ex3{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#op4{
+    animation-name: ex4;
+    animation-duration: 5s;
+}
+@keyframes ex4{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+button{
+    border: none;
+    padding: 10px;
+}
+button:hover{
+    background-color: #cb9e61;
+    color: #fefdfc;
+}
+.card{
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+/* footer */
+.footer{
+    background-color: #999999;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fefdfc;
+}
+.footer a{
+    text-decoration: none;
+    color: #fefdfc;
+    float: right;
+    letter-spacing: 1px;
+}
+.para{
+    text-align: center;
+    color: #fefdfc;
+    font-size: 18px;
+}
+.footer button{
+    border:none;
+    width:99%;
+    background-color: #cb9e61;
+    color: #fefdfc;
+}
+.footer button:hover{
+    color: #cb9e61;
+    background-color: #fefdfc;
+}
+.footer textarea{
+    background-color: #fefdfc;
+}
+.footer h1{
+    font-size: 50px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+.p{
+    font-family: "Curlz MT";
+    font-size: 20px;
+}
